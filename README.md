@@ -14,9 +14,9 @@ StudentManagement-FaceRecognition - это удобное приложение �
 <img src="https://github.com/ikboljon1/StudentManagement-FaceRecognition/assets/63257726/1d1cc921-f784-4f17-8a28-6eba5e3a5ac5" width="450" height="250">
 
 ## Используемые технологии:
-- Язык программирования: Python
-- Библиотеки: Tkinter, OpenCV, Numpy, MySQL Connector
-- База данных: MySQL
+- Язык программирования: ![Python](https://img.shields.io/badge/python-3670A0?&logo=python&logoColor=ffdd54)
+- Библиотеки: 	![Tkinter](https://img.shields.io/badge/Tkinter-003545?&logo=Tkinter&logoColor=white) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?&logo=opencv&logoColor=white) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?&logo=numpy&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQConnector-%2300f.svg?&logo=mysql&logoColor=white)
+- База данных: ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?&logo=mysql&logoColor=white)
 
 ## Установка:
 1. Клонируйте репозиторий:
@@ -33,6 +33,7 @@ StudentManagement-FaceRecognition - это удобное приложение �
 - Находите часть mysql.connector во всех файлах, таких как `Student`, `Train`, `Face_Recognition`, `Attendance`.
 ```conn = mysql.connector.connect(username='root', password='новый пароль',host='localhost',database='face_recognition',port=3306)```
 В них меняйте пароль `password='новый пароль'`
+4. Извлекайте `data_img.rar` в архив
 5.  Запустите приложение командой:
   ```
   python main.py
